@@ -1,0 +1,11 @@
+nodes: the coordinates of 1000 nodes
+
+Dist_Mat: the symmetric distance matrix
+
+Range_Mat: the symmetric range matrix (range = distance + error)
+
+small LOS means \sigma^2 = 0.04
+
+medium LOS means \sigma^2 = 0.1
+
+large LOS means \sigma^2 = 0.25
