@@ -150,6 +150,7 @@ for axis in range(repeat):
     seed = seed + 1
 
 loss = sum(loss_tem)/repeat
+print("=====================================\n")
 print("Averaged Test results:", "loss= {:.4f} (RMSE)".format(loss))
 
 nowTime = datetime.datetime.now().strftime('%Y-%m-%d-%H_%M_%S')  # Get the Now time
@@ -161,7 +162,7 @@ print(model, file=file_handle)
 file_handle.write('feature mode (1 is filtered mode, 2 is sparse filtered mode):' + str(mode_fea) + '\n')
 file_handle.write('adjacent mode (1 is filtered mode, 2 is sparse filtered mode):' + str(mode_adj) + '\n')
 file_handle.write('loss_train (RMSE):' + format(loss_train.item()) + '\n')
-file_handle.write('loss_test (RMSE):' + format(loss_test.item()) + '\n')
+file_handle.write('loss_test (RMSE):' + format(loss) + '\n')
 file_handle.close()
 
 # io.savemat('predict_' + str(num_anchor) + 'anchor_2layer_' + str(nowTime) + '.mat', {'predict': predict})
