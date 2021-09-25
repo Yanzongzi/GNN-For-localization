@@ -45,7 +45,7 @@ def sparse_mx_to_torch_sparse_tensor(sparse_mx):
 
 
 def load_data(threshold, num_anchor):
-    m = loadmat("./Networks/8anchor_1000agent_0PercentNLOS_mediumLOS.mat")
+    m = loadmat("./Networks/8anchor_1000agent_10PercentNLOS_mediumLOS.mat")
 
     Range_Mat = m["Range_Mat"]  # Range = Distance + noise
     Dist_Mat = m["Dist_Mat"]
