@@ -9,7 +9,7 @@ https://arxiv.org/abs/2010.11653 (Accepted by ICASSP 2021)
 * torch 1.7.1
 
 # Contact
-If you have any questions, feel free to contact Wenzhong Yan through Email (219019024@link.cuhk.edu.cn) or Github issues. Pull requests are highly welcomed!
+If you have any questions, feel free to contact Wenzhong Yan through Email (wenzhongyan@link.cuhk.edu.cn) or Github issues. Pull requests are highly welcomed!
 
 # Cite this paper
 If you find this repository useful in your research, please consider citing the following paper:
